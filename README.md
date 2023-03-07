@@ -13,7 +13,7 @@ It is possible to run the repo using
 [MyBinder](www.mybinder.org).
 
 * To run the repo remotely:
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/a-monsch/Higgs-Search-as-a-Masterclass)
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/a-monsch/Higgs-Search-as-a-Masterclass/HEAD)
 
 * To run locally (following commands for Terminal/Power Shell):
 
