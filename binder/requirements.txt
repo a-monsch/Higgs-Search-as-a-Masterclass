@@ -7,3 +7,4 @@ matplotlib
 pandas
 vector
 tqdm
+fsspec==0.4.1
