@@ -1,0 +1,9 @@
+setuptools
+pip
+jupyter
+notebook
+numpy
+matplotlib
+pandas
+vector
+tqdm

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd data
+
+wget --max-redirect=20 -O data_for_higgs_search_masterclass.zip https://www.dropbox.com/s/zgrvm1idl4y6pj3/data_for_higgs_search_masterclass.zip?dl=0
+
+unzip -o data_for_higgs_search_masterclass.zip
+rm data_for_higgs_search_masterclass.zip
+
+
+cd ..
