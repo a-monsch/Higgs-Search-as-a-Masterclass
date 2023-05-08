@@ -20,9 +20,10 @@ lw = 2
 prev_hists: Dict[str, list] = {"z1": [], "z2": [], "four_lep": [], "filter": []}
 
 
-def clear_previous_used_hists() -> None:
+def clear_hist_plots(df: pd.DataFrame) -> pd.DataFrame:
     global prev_hists
     prev_hists = {"z1": [], "z2": [], "four_lep": [], "filter": []}
+    return df
 
 
 def plot_masses(
