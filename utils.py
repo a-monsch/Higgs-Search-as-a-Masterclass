@@ -4,6 +4,7 @@
 
 import warnings
 from itertools import combinations
+import shutil
 from typing import Any, Callable, Dict, List, Tuple, Union
 
 import matplotlib
@@ -13,8 +14,9 @@ import numpy.typing as npt
 import pandas as pd
 import vector as vec
 
-matplotlib.rc("font", size=16, family="serif")
-matplotlib.rcParams["text.usetex"] = True
+if shutil.which('latex'):
+    matplotlib.rc("font", size=16, family="serif")
+    matplotlib.rcParams["text.usetex"] = True
 
 lw = 2
 prev_hists: Dict[str, list] = {"z1": [], "z2": [], "four_lep": [], "filter": []}
